@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    
+}
+
+header {
+    position: fixed;
+    width: 1992px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 3;
+    
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li a {
+    color:seashell;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 150px;
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img{
+    height: 700px;
+    z-index: 1;
+    
+}
+
+.front-banner {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    background-color: black;
+    width: 1200px;   
+}
+    
+
+#tea-of-the-month{
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+.items-list {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;  
+}
+.items-list h4 {
+    margin-top: 10px;
+}
+
+.items-img {
+    width: 300px;
+    height: 200px;
+}
+
+
+#locations{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*rfpro3*_ga*NTc5MzAxNDQyOC4xNzA1MTg3Mjg3*_ga_3LRZM6TM9L*MTcwOTYzODYyNy4xMzUuMC4xNzA5NjM4NjI3LjAuMC4w');
+    background-position: center;
+    height: 500px; 
+    width: 1200px;
+    margin: 0 auto; 
+    padding-top: 70px;
+}
+.locations h2{
+    margin-bottom: 15px;
+    
+}
+
+.location-container {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+   
+    
+}
+
+.locations-squares {
+    width: 300px;
+    background-color: black;     
+    opacity: 1;   
+}
+
+.contact-info {
+    height 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
